@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE CD SYSTEM "bon_de_commande.dtd">
+<Bondecommande>
+   <Entreprise>
+        <Nom>entreprise 1</Nom>
+        <Adresse>28 rue des lambes dorées</adresse>
+        <Numerodetelephone>06 07 08 09 10</Numerodetelephone>
+   </Entreprise>
+   <Entreprise>
+   <Nom>entreprise 2</Nom>
+   <Adresse>14 rue de l'homme du pilier</adresse>
+   <Numerodetelephone>06 06 06 06 06</Numerodetelephone>
+   <Numerodetelecopie>4564</Numerodetelecopie>
+   </Entreprise>
+   <Date>16 fevrier 2048</Date>
+   <Montanttotal>30.00 euro</Montantotal>
+   <Lignedecommande>
+   <Intitule>achat de barre néon</Intitule>
+   <Referencedeproduit>35167</Referencedeproduit>
+   <Quantite>2</Quantite>
+   <Prixunitaire>15.00 euro</Prixunitaire>
+   </Lignedecommande>
+</Bondecommande>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!ELEMENT Bondecommande (Entreprise, Entreprise, Date, Montanttotal, Lignedecommande+)>
+<!ELEMENT Entreprise (Nom, Adresse, Numerodetelephone, Numerodetelecopie?)>
+<!ELEMENT Lignedecommandes (Intitule, Referencedeproduit, Quantite, Prixunitaire)>
+<!ELEMENT Date (#PCDATA)>
+<!ELEMENT Montanttotal (#PCDATA)>
+<!ELEMENT Nom (#PCDATA)>
+<!ELEMENT Adresse (#PCDATA)>
+<!ELEMENT Numerodetelephone (#PCDATA)>
+<!ELEMENT Numerodetelecopie (#PCDATA)>
+<!ELEMENT Intitule (#PCDATA)>
+<!ELEMENT Referencedeproduit (#PCDATA)>
+<!ELEMENT Quantite (#PCDATA)>
+<!ELEMENT Prixunitaire (#PCDATA)>
